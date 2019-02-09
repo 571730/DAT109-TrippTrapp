@@ -1,0 +1,59 @@
+body{
+    background-color: #ffb200;
+    font-family: "Noto Sans";
+}
+.square{
+    border-color: #4e4e49;
+    border-style: solid;
+    align-content: center;
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-top: 3px;
+    margin-right: 3px;
+    float: left;
+}
+.tekstRute{
+    font-size: 100px;
+    color: #4e4e49;
+}
+.vinner{
+    font-size: 80px;
+    color: #fff500;
+}
+.square:hover{
+    background-color: #e49300;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+}
+.left{
+    text-align: center;
+    width: 300px;
+    padding: 2em;
+    float: left;
+}
+.board{
+    width: 950px;
+    margin: 0 auto;
+    align-content: center;
+}
+h1{
+    text-align: center;
+}
+.myButton{
+    padding: 1em;
+    background-color: #40bde4;
+    border-color: #dbe4db;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #4e4e49;
+}
+.myButton:hover{
+    transition: 0.5s;
+    background-color: #4086ad;
+    cursor: pointer;
+}

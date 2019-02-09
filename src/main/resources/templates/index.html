@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tripp Trapp Tresko</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/test.css}">
+</head>
+<body>
+<h1>Tripp Trapp Tresko</h1>
+<div class="container">
+    <div class="left">
+        <h3 th:if="${!ferdig}">Runde:</h3>
+        <h3 th:if="${ferdig}">Vi har vinner!</h3>
+        <h1 th:if="${!ferdig}" th:text="${tur}"></h1>
+        <h1 class="vinner" th:if="${ferdig}" th:text="${vinner}"></h1>
+        <a th:href="@{/reset}" class="myButton">Nytt brett</a>
+    </div>
+    <div class="board">
+        <a th:each="rute : ${brett}" th:href="@{/click/{id}(id=${rute.numRute})}"><div class="square" th:id="${rute.numRute}">
+            <h1 th:text="${rute.tegn}" class="tekstRute"></h1>
+        </div></a>
+    </div>
+</div>
+</body>
+</html>
