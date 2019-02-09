@@ -1,5 +1,5 @@
 body{
-    background-color: #ffb200;
+    background-color: #a8db6a;
     font-family: "Helvetica";
 }
 .square{
@@ -15,16 +15,26 @@ body{
     border-radius: 10px;
 }
 .tekstRute{
-    font-size: 100px;
+    font-size: 120px;
     color: #4e4e49;
+    text-align: center;
+    vertical-align: middle;
+}
+.tittel{
+    text-decoration: underline #f6008b;
 }
 .vinner{
     font-size: 80px;
-    color: #fff500;
+    color: #ffffff;
+    padding: 1em;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    background-color: #f6008b;
 }
 .square:hover{
     transition: 0.2s;
-    background-color: #e49300;
+    background-color: #7aad59;
     cursor: pointer;
 }
 .container{
@@ -40,6 +50,7 @@ body{
     width: 950px;
     margin: 0 auto;
     align-content: center;
+    background-color: #a8db6a;
 }
 h1{
     text-align: center;
