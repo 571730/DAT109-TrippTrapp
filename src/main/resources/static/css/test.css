@@ -1,6 +1,6 @@
 body{
     background-color: #ffb200;
-    font-family: "Noto Sans";
+    font-family: "Helvetica";
 }
 .square{
     border-color: #4e4e49;
@@ -12,6 +12,7 @@ body{
     margin-top: 3px;
     margin-right: 3px;
     float: left;
+    border-radius: 10px;
 }
 .tekstRute{
     font-size: 100px;
@@ -22,6 +23,7 @@ body{
     color: #fff500;
 }
 .square:hover{
+    transition: 0.2s;
     background-color: #e49300;
     cursor: pointer;
 }

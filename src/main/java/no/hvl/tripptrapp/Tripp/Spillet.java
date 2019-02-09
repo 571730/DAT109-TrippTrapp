@@ -33,7 +33,7 @@ public class Spillet {
         harEnVinner = sjekkRader();
         if (!harEnVinner)
             harEnVinner = sjekkKol();
-        else if (!harEnVinner)
+        if (!harEnVinner)
             harEnVinner = sjekkDiagonal();
 
         return harEnVinner;
