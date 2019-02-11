@@ -6,19 +6,20 @@ body{
     border-color: #4e4e49;
     border-style: solid;
     align-content: center;
-    display: block;
-    width: 300px;
-    height: 300px;
-    margin-top: 3px;
-    margin-right: 3px;
-    float: left;
+    float:left;
+    position: relative;
+    width: 31%;
+    height: 21vw;
+    margin: 2px;
     border-radius: 10px;
+    display: table;
 }
 .tekstRute{
     font-size: 120px;
     color: #4e4e49;
     text-align: center;
     vertical-align: middle;
+    display: table-cell;
 }
 .tittel{
     text-decoration: underline #f6008b;
@@ -26,7 +27,7 @@ body{
 .vinner{
     font-size: 80px;
     color: #ffffff;
-    padding: 1em;
+    padding: 10%;
     border-style: solid;
     border-width: thin;
     border-radius: 10px;
@@ -42,15 +43,15 @@ body{
 }
 .left{
     text-align: center;
-    width: 300px;
+    width: 10%;
     padding: 2em;
     float: left;
+    height: 100%;
 }
 .board{
-    width: 950px;
     margin: 0 auto;
-    align-content: center;
     background-color: #a8db6a;
+    width: 60%;
 }
 h1{
     text-align: center;
